@@ -1,0 +1,36 @@
+name: Feature Request
+description: Suggest an idea, feature, balance change, or improvement for Yetrealm
+title: "[Suggestion]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting an idea for Yetrealm.
+        Please describe the suggestion clearly.
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggestion
+      description: What do you want to add, change, or improve?
+      placeholder: "Describe your idea here."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why should this be added?
+      description: Explain how this improves exploration, progression, combat, balance, structures, bosses, or gameplay.
+      placeholder: "Explain why this would be useful or fun."
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Additional details
+      description: Add examples, screenshots, references, balance numbers, or related ideas if available.
+    validations:
+      required: false
