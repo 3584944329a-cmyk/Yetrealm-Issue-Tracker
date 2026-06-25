@@ -1,7 +1,8 @@
 name: Feature Request
-description: Suggest an idea, feature, balance change, or improvement for Yetrealm
+description: Suggest an idea, feature, balance change, or improvement for Yetrealm.
 title: "[Suggestion]: "
 labels: ["enhancement"]
+
 body:
   - type: markdown
     attributes:
